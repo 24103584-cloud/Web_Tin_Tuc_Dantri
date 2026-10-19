@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Tin Tức Dân Trí</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container logo-bar">
+      <a href="index.html" class="logo">DÂN TRÍ NEWS</a>
+      <a href="crawler.html" class="crawler-link">Trang Cào Tin Tức</a>
+    </div>
+    <div class="container">
+      <nav>
+        <ul class="nav-list" id="main-nav"></ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Content chính -->
+  <main class="container" id="app-content">
+    <!-- Nội dung tự động render bởi main.js -->
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Về chúng tôi</h4>
+          <p>Báo điện tử Dân trí - Trẻ trung, hiện đại, nhân văn và tin cậy. Cập nhật tin tức 24/7.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Liên kết nhanh</h4>
+          <ul>
+            <li><a onclick="loadCategory('home')">Trang chủ</a></li>
+            <li><a onclick="loadCategory('latest')">Tin mới nhất</a></li>
+            <li><a href="crawler.html">Công cụ Crawler</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Chuyên mục</h4>
+          <ul id="footer-categories"></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Liên hệ</h4>
+          <p>Email: toasoan@dantri.com.vn</p>
+          <p>Địa chỉ: Tòa nhà Dân Trí, Hà Nội</p>
+          <p>Mạng xã hội: Facebook | YouTube | TikTok</p>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2026 Bản quyền thuộc về Báo điện tử Dân trí.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
