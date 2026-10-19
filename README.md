@@ -10,7 +10,7 @@ Website tin tức được xây dựng bằng HTML5, CSS3 và JavaScript thuần
 - `main.js`: File xử lý chính (Nav, render layout, xem chi tiết, LocalStorage).
 - `crawler.js`: File chứa hàm cào dữ liệu từ URL Dân trí.
 - `categories.json`: Cấu trúc cây phân cấp chuyên mục.
-- `post.json`: Dữ liệu bài viết mẫu ban đầu.
+- `posts.json`: Dữ liệu bài viết mẫu ban đầu.
 
 ## 3. Tính năng chính
 - Navigation bar động load từ cây chuyên mục JSON.
